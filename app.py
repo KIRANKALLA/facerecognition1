@@ -14,7 +14,7 @@ if image:
     st.image(img)
     img = np.array(img)
     objs = DeepFace.find(img,'database',model_name='Facenet512')
-    name = objs[0]['identity'].split('/')[-1].split('.')[0]
+    name = objs[0]['identity'][0].split('/')[-1].split('.')[0]
     st.write(' Hi ' + '  name') 
 
      
