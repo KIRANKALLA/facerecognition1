@@ -13,7 +13,7 @@ if image:
     img = Image.open(image)
     st.image(img)
     img = np.array(img)
-    objs = DeepFace.find(img,'rcefaces/database',model_name='Facenet512')
+    objs = DeepFace.find(img,'facerecognition1/database',model_name='Facenet512')
     name = objs[0]['identity'].split('/')[-1].split('.')[0]
     st.write(' Hi ' + '  name') 
 
