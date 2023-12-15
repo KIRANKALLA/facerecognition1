@@ -18,14 +18,14 @@ if image:
     name = str(objs[0]['identity'][0])
     name = name.split('/')[-1].split('.')[0]
     st.write(' Hi ' + '  ' + name)
-    information = DeepFace.analyze(img)
+    '''information = DeepFace.analyze(img)
     infomation = json.load(information)
     age = information['age']
     emotion = information['dominant_emotion']
     race = information['dominant_race']
     gender = information['gender']
     st.write('Your age is   ',age)
-    st.write('You are  ',gender)
+    st.write('You are  ',gender)'''
     st.write('You are from  ', race)
     st.write('You are feeling very ', emotion)
     
