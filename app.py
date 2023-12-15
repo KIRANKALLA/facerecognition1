@@ -11,7 +11,7 @@ image = st.file_uploader('Take any image')
 
 if image:
     img = Image.open(image)
-    st.image(img)
+    #st.image(img)
     img = np.array(img)
     objs = DeepFace.find(img,'database',model_name='Facenet512',enforce_detection=False)
     name = str(objs[0]['identity'][0])
