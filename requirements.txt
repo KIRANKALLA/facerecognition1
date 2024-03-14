@@ -3,5 +3,6 @@ streamlit==1.25.0
 Pillow==9.5.0
 deepface==0.0.79
 pandas
+dlib-bin
 face_recognition
 numpy
