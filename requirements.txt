@@ -1,5 +1,5 @@
 opencv-python-headless==4.8.0.74
-streamlit==1.25.0
+streamlit
 Pillow==9.5.0
 deepface==0.0.79
 pandas
